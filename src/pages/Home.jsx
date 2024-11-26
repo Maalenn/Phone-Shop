@@ -1,7 +1,14 @@
+import Card from "../components/Card";
+import { data } from "../data/data.js";
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <section>
+      <h2 className="product-heading">All Products</h2>
+      <div className="card-container">
+        <Card products={data} />
+      </div>
+    </section>
+  );
+};
 
-export default Home
+export default Home;

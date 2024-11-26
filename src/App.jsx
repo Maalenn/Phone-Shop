@@ -8,11 +8,13 @@ import Home from "./pages/Home";
 import Service from "./pages/Service";
 import Accessories from "./pages/Accessories";
 import About from "./pages/About";
+import ProductDetail from "./pages/ProductDetail";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
       <Route index element={<Home />} />
+      <Route path=":id" element={<ProductDetail />} />
       <Route path="service" element={<Service />} />
       <Route path="accessories" element={<Accessories />} />
       <Route path="about" element={<About />} />
