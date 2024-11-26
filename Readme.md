@@ -1,0 +1,1 @@
+ចំពោះ source code ទាំងអស់នេះ ដើម្បីអាចឱ្យវាដំណើរការបាន អ្នកត្រូវតែធ្វើការដំឡើង Node Module ជាមុនសិន ដោយវាយ npm install នោះវានឹងធ្វើការដំឡើង Modules ដែលពាក់ព័ន្ធនឹង Dependencies នៃ package.json របស់យើង។
